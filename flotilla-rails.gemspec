@@ -16,4 +16,6 @@ Gem::Specification.new do |s|
 
   s.add_dependency "json", Flotilla::Rails::JSON_VERSION
   s.add_dependency "flot-rails", Flotilla::Rails::FLOT_RAILS_VERSION
+  s.add_dependency "rails", "~> 3"
+  s.add_dependency "rake", "~> 10.1"
 end
